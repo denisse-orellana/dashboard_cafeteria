@@ -1,0 +1,7 @@
+{
+  "name": "dashboard",
+  "private": true,
+  "dependencies": {
+    "highcharts": "^9.3.0"
+  }
+}
