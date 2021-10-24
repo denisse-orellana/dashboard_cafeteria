@@ -1,4 +1,4 @@
-# Cafeteria dashboard
+# Dashboard Cafeteria 
 
 The present project involves the implementations of graphics to display business information of a Cafeteria.
 
