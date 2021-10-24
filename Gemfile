@@ -66,3 +66,7 @@ gem "faker", "~> 2.19"
 gem "chartkick", "~> 4.0"
 
 gem "groupdate", "~> 5.2"
+
+gem "bootstrap", "~> 5.1"
+
+gem "jquery-rails", "~> 4.4"
