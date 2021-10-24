@@ -50,7 +50,7 @@ And called from the stylesheets:
 
 ## Defining the models
 
-![coffe](/assets/images/coffe.png)
+![coffe](app/assets/images/coffe.png)
 
 As it can be seen above, the relation it is a *has_many* association and the models are generated as it follows:
 
