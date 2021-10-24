@@ -2,6 +2,16 @@
 
 The present project involves the implementations of graphics to display business information of a Cafeteria.
 
+## Table of Contents
+
+* [Ruby & Rails version](#ruby---rails-version)
+* [Ruby & Rails Gems](#ruby---rails-gems)
+* [Incorporating Bootstrap](#incorporating-bootstrap)
+* [Defining the models](#defining-the-models)
+* [Populating the database](#populating-the-database)
+* [Incorporating the graphics](#incorporating-the-graphics)
+    + [Generating the charts](#generating-the-charts)
+    
 ## Ruby & Rails version
 
 ```ruby
@@ -178,17 +188,22 @@ And finally, these are called from the index as:
 ```ruby
 # dashboard/index.html
 
+# 1. Chart with the month's sales of the last 12 months
 <%= column_chart @sales_group_by_month %>
 
+# 2. Chart with the month sales quantity of the last 12 months
 <%= column_chart @sales_group_by_month_count %>
 
+# 3. Chart with the average month sales of the last 12 months
 <%= column_chart @sales_group_by_month_average %>
 
+# 4. Pie chart with the sales quantity according to the coffee origin:
 <%= pie_chart @sales_count_by_origin_12m %>
 <%= pie_chart @sales_count_by_origin_6m %>
 <%= pie_chart @sales_count_by_origin_3m %>
 <%= pie_chart @sales_count_by_origin_1m %>
 
+# 5. Pie chart with the sales quantity according to the blend of coffee:
 <%= pie_chart @sales_count_by_blend_12m %>
 <%= pie_chart @sales_count_by_blend_6m %>
 <%= pie_chart @sales_count_by_blend_3m %>
