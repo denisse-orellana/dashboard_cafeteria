@@ -14,10 +14,8 @@ The present project involves the implementations of graphics to display business
     
 ## Ruby & Rails version
 
-```ruby
 * ruby '2.6.1'
 * gem 'rails', '~> 5.2.6'
-```
 
 ## Ruby & Rails Gems
 
@@ -31,7 +29,7 @@ gem "jquery-rails", "~> 4.4"
 
 ## Incorporating Bootstrap
 
-In the Gemfile is it added:
+In the Gemfile is added:
 
 ```ruby
 # gemfile.rb
