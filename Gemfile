@@ -60,13 +60,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
+# A library for generating fake data such as names, addresses, and phone numbers. Read more: https://github.com/faker-ruby/faker
 gem "faker", "~> 2.19"
-
+# To create beautiful JavaScript charts with one line of Ruby. Read more: https://github.com/ankane/chartkick
 gem "chartkick", "~> 4.0"
-
+# The simplest way to group temporal data. Read more: https://github.com/ankane/groupdate
 gem "groupdate", "~> 5.2"
-
+# A gem for Ruby on Rails (Sprockets) and Hanami (formerly Lotus). Read more: https://github.com/twbs/bootstrap-rubygem
 gem "bootstrap", "~> 5.1"
-
+# A gem to automate using jQuery with Rails. Read more: https://github.com/rails/jquery-rails
 gem "jquery-rails", "~> 4.4"

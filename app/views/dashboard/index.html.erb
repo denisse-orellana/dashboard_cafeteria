@@ -1,20 +1,33 @@
 <div class="container">
-    <h1 class="py-5">Dashboard#index</h1>
+    <h1 class="py-5">Dashboard Cafeteria</h1>
 
+    <h2>Chart with the month's sales of the last 12 months</h2>
     <%= column_chart @sales_group_by_month %>
     
+    <h2>Chart with the month sales quantity of the last 12 months</h2>
     <%= column_chart @sales_group_by_month_count %>
-    
+
+    <h2>Chart with the average month sales of the last 12 months</h2>
     <%= column_chart @sales_group_by_month_average %>
     
+    <h2>Pie chart with the sales quantity according to the coffee origin</h2>
+    <h3>Last 12 months</h3>
     <%= pie_chart @sales_count_by_origin_12m %>
+    <h3>Last 6 months</h3>
     <%= pie_chart @sales_count_by_origin_6m %>
+    <h3>Last 3 months</h3>
     <%= pie_chart @sales_count_by_origin_3m %>
+    <h3>Last 1 months</h3>
     <%= pie_chart @sales_count_by_origin_1m %>
     
+    <h2>Pie chart with the sales quantity according to the blend of coffee</h2>
+    <h3>Last 12 months</h3>
     <%= pie_chart @sales_count_by_blend_12m %>
+    <h3>Last 6 months</h3>
     <%= pie_chart @sales_count_by_blend_6m %>
+    <h3>Last 3 months</h3>
     <%= pie_chart @sales_count_by_blend_3m %>
+    <h3>Last 1 months</h3>
     <%= pie_chart @sales_count_by_blend_1m %>
 </div>
 
